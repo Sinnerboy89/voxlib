@@ -10,8 +10,6 @@ from scipy.signal import resample
 import matplotlib.pyplot as plt
 from bisect import bisect_left
 
-from frame import frame, fill_frame_data
-
 WINDOW_SZ = 2
 SRATE = 16000
 
