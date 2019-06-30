@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Use PSOLA to tune a speech/singing signal according to f0 file
+# Use PSOLA to tune a speech/singing signal according to f0 track
 
 import copy
 import numpy as np
@@ -22,7 +22,7 @@ class frame:
     fsz = 0.005
     # sample start position in the original waveform
     fstart_pos = None
-    # lpc coeficients for the frame
+    # lpc coefficients for the frame
     lpcs = None
     # order of lpcs (not including energy)
     lpcorder = None
